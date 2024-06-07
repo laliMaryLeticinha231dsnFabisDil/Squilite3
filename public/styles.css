@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0b6; /* Cor de fundo da página */
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center; /* Centraliza os títulos */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff; /* Cor de fundo da tabela */
+  }
+  
+  table, th, td {
+    border: none;
+  }
+  .container{
+    margin-top: 20vh;
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #741995; /* Cor de fundo do cabeçalho da tabela */
+    color: white; /* Cor do texto do cabeçalho da tabela */
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e9e9e9;
+  }
+  .texto{
+    text-align: center;
+  }
+  form {
+    display: flex;
+      flex-direction: column;
+    width: 300px;
+    margin: 0 auto; /* Centraliza o formulário */
+    margin-top: 20px;
+    padding: 20px; /* Adiciona espaçamento interno ao formulário */
+    background-color: #fff; /* Cor de fundo do formulário */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para o formulário */
+    border-radius: 5px; /* Bordas arredondadas para o formulário */
+  }
+  
+  label, input {
+    margin-bottom: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+    border-color: #db89e9; /* Cor de borda ao focar nos inputs e botão */
+  }
+  
+  button {
+    background-color: #741995; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fa89f8; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
